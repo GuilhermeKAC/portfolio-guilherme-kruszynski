@@ -30,16 +30,16 @@ onMounted(async () => {
 
       <!-- Coluna de texto -->
       <div class="hero-meta flex flex-col gap-10">
-        <div class="space-y-6">
-          <span class="text-mono text-muted">
+        <div class="flex flex-col">
+          <span class="text-mono text-muted mb-8">
             São José dos Campos, SP · 2026
           </span>
 
-          <h1 class="heading-display">
+          <h1 class="heading-display" style="padding-bottom: 1.5rem">
             Guilherme<br>Kruszynski
           </h1>
 
-          <p class="label-mono mt-4">
+          <p class="label-mono">
             {{ t('hero.role') }} · PHP · Laravel · PostgreSQL
           </p>
         </div>
