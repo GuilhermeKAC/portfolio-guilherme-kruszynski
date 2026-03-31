@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "experience": "Experience",
+    "skills": "Skills",
+    "achievements": "Achievements",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "Full-stack Developer",
+    "specialty": "PHP · Laravel · PostgreSQL | WMS/YMS Specialist & Clean Architecture",
+    "summary": "Full-stack developer with solid experience in PHP, Laravel, PostgreSQL, and agile methodologies. Specialized in building management systems (WMS/YMS) and vehicle tracking platforms. Proven track record of developing systems from scratch—from planning to production—defining architecture and providing technical leadership as a Scrum Master.",
+    "cta": "Get in touch"
+  },
+  "techStack": {
+    "title": "Stack & Technologies"
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "Present",
+    "items": [
+      {
+        "company": "Yardex (by Kensys)",
+        "role": "Senior Software Developer (Full-stack)",
+        "period": "09/2025 – Present",
+        "description": "End-to-end development of a system from scratch: architecture definition, technology selection, and implementation using PHP/Laravel/PostgreSQL. Direct interaction with clients and POs to translate business requirements into robust technical solutions. Applied Clean Architecture patterns to ensure maintainability, security, and high performance. Leading agile ceremonies (Scrum), managing sprints, and maintaining active communication with stakeholders.",
+        "technologies": ["PHP/Laravel", "PostgreSQL", "Scrum", "Clean Architecture", "Modular Monolith"]
+      },
+      {
+        "company": "Wiser Log Brasil",
+        "role": "Mid-level PHP/Laravel Developer",
+        "period": "09/2022 – 09/2025",
+        "description": "Developed and maintained a WMS (Warehouse Management System) focusing on new feature implementation and critical bug fixes. Acted as Scrum Master: monitoring teams, conducting agile ceremonies, and managing the product backlog. Optimized SQL queries and integrated external APIs, improving performance for high-demand operational environments.",
+        "technologies": ["Laravel", "PostgreSQL", "Scrum Master", "APIs", "SQL Performance"]
+      },
+      {
+        "company": "Logymetria",
+        "role": "PHP Developer (Laravel)",
+        "period": "01/2022 – 07/2022",
+        "description": "Developed a vehicle tracking application using Laravel with real-time data integration. Implemented complex business rules and designed relational database structures.",
+        "technologies": ["PHP/Laravel", "MySQL", "JavaScript"]
+      },
+      {
+        "company": "TrackCash",
+        "role": "Junior PHP Developer",
+        "period": "02/2021 – 03/2022",
+        "description": "Developed API-driven applications focusing on AWS and marketplace integrations. Maintained and evolved financial systems using PHP, Laravel, and PostgreSQL. Active participation in agile ceremonies and provided technical support to internal users.",
+        "technologies": ["PHP", "Laravel", "PostgreSQL", "AWS"]
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Achievements",
+    "items": [
+      {
+        "metric": "Greenfield",
+        "description": "Technical leadership on a from-scratch project with modular monolith architecture in production",
+        "icon": "rocket"
+      },
+      {
+        "metric": "-40%",
+        "description": "Reduction in WMS report response time through SQL query optimization",
+        "icon": "chart"
+      },
+      {
+        "metric": "+25%",
+        "description": "Increase in squad productivity while acting as Scrum Master",
+        "icon": "users"
+      },
+      {
+        "metric": "APIs",
+        "description": "Complex integrations with marketplace APIs and vehicle tracking systems",
+        "icon": "code"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "degree": "Associate Degree in Systems Analysis and Development",
+    "institution": "UNIP — Universidade Paulista",
+    "period": "2018 – 2020",
+    "location": "São José dos Campos, SP",
+    "certifications": {
+      "title": "Certifications",
+      "items": [
+        { "name": "Web Design: Build Websites with PHP, HTML, CSS and JS" },
+        { "name": "PHP Training: Scalability and System Architecture" },
+        { "name": "Information Security and Data Protection (LGPD)" },
+        { "name": "Introduction to SQL with MySQL" },
+        { "name": "Complete PHP 7 — Web Developer Course + Projects" }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "availability": "Open to on-site, hybrid, or remote opportunities",
+    "copyEmail": "Copy email",
+    "copied": "Copied!"
+  },
+  "footer": {
+    "madeWith": "Built with Vue 3"
+  }
+}

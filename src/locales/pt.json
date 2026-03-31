@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "experience": "Experiência",
+    "skills": "Habilidades",
+    "achievements": "Conquistas",
+    "education": "Formação",
+    "contact": "Contato"
+  },
+  "hero": {
+    "role": "Desenvolvedor Full-stack",
+    "specialty": "PHP · Laravel · PostgreSQL | Especialista em WMS/YMS & Clean Architecture",
+    "summary": "Desenvolvedor full-stack com sólida experiência em PHP, Laravel, PostgreSQL e metodologias ágeis. Especializado em construção de sistemas de gestão (WMS/YMS) e plataformas de rastreamento veicular. Experiência comprovada no desenvolvimento de sistemas do zero — do planejamento à produção — definindo arquitetura e liderança técnica como Scrum Master.",
+    "cta": "Entre em contato"
+  },
+  "techStack": {
+    "title": "Stack & Tecnologias"
+  },
+  "experience": {
+    "title": "Experiência",
+    "present": "Atual",
+    "items": [
+      {
+        "company": "Yardex (by Kensys)",
+        "role": "Senior Software Developer (Full-stack)",
+        "period": "09/2025 – Atual",
+        "description": "Construção integral de sistema do zero — do planejamento à produção: definição de arquitetura, escolha tecnológica e implementação com PHP/Laravel/PostgreSQL. Interação direta com cliente e Product Owner para transformar demandas em soluções técnicas robustas. Aplicação de padrões de arquitetura limpa, garantindo manutenibilidade, segurança e alta performance. Liderança em cerimônias ágeis (Scrum), organização de sprints e comunicação ativa com stakeholders.",
+        "technologies": ["PHP/Laravel", "PostgreSQL", "Scrum", "Clean Architecture", "Monolito Modular"]
+      },
+      {
+        "company": "Wiser Log Brasil",
+        "role": "Desenvolvedor PHP/Laravel Pleno",
+        "period": "09/2022 – 09/2025",
+        "description": "Desenvolvimento e manutenção de sistema de gestão de armazém (WMS) com foco em novas funcionalidades e correção de bugs críticos. Atuação como Scrum Master: monitoramento de equipes, condução de cerimônias ágeis e gestão de backlog. Otimização de consultas SQL e integração com APIs externas, melhorando performance para alta demanda operacional.",
+        "technologies": ["Laravel", "PostgreSQL", "Scrum Master", "APIs", "SQL Performance"]
+      },
+      {
+        "company": "Logymetria",
+        "role": "Desenvolvedor PHP (Laravel)",
+        "period": "01/2022 – 07/2022",
+        "description": "Criação de aplicação para sistema de rastreamento veicular, utilizando Laravel e integração com dados em tempo real. Implementação de regras de negócio complexas e estruturação de banco de dados relacional.",
+        "technologies": ["PHP/Laravel", "MySQL", "JavaScript"]
+      },
+      {
+        "company": "TrackCash",
+        "role": "Desenvolvedor PHP Júnior",
+        "period": "02/2021 – 03/2022",
+        "description": "Desenvolvimento de aplicações para consulta de APIs com foco em AWS e integração com marketplaces. Manutenção e evolução de sistemas financeiros, utilizando PHP, Laravel e PostgreSQL. Participação ativa em cerimônias ágeis e suporte técnico a usuários internos.",
+        "technologies": ["PHP", "Laravel", "PostgreSQL", "AWS"]
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Conquistas",
+    "items": [
+      {
+        "metric": "Greenfield",
+        "description": "Liderança técnica em projeto do zero com arquitetura monolito modular em produção",
+        "icon": "rocket"
+      },
+      {
+        "metric": "-40%",
+        "description": "Redução no tempo de resposta de relatórios do WMS via otimização de queries SQL",
+        "icon": "chart"
+      },
+      {
+        "metric": "+25%",
+        "description": "Aumento na produtividade do squad atuando como Scrum Master",
+        "icon": "users"
+      },
+      {
+        "metric": "APIs",
+        "description": "Integrações complexas com APIs de marketplaces e sistemas de rastreamento veicular",
+        "icon": "code"
+      }
+    ]
+  },
+  "education": {
+    "title": "Formação",
+    "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+    "institution": "UNIP — Universidade Paulista",
+    "period": "2018 – 2020",
+    "location": "São José dos Campos, SP",
+    "certifications": {
+      "title": "Certificações",
+      "items": [
+        { "name": "Web Design: Construa Sites com PHP, HTML, CSS e JS" },
+        { "name": "Formação PHP: Escalabilidade e Arquitetura de Sistemas" },
+        { "name": "Segurança da Informação e Proteção de Dados (LGPD)" },
+        { "name": "Introdução ao SQL com MySQL" },
+        { "name": "PHP 7 Completo — Curso do Desenvolvedor Web + Projetos" }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "availability": "Aberto para oportunidades presenciais, híbridas ou remotas",
+    "copyEmail": "Copiar e-mail",
+    "copied": "Copiado!"
+  },
+  "footer": {
+    "madeWith": "Feito com Vue 3"
+  }
+}
