@@ -18,7 +18,7 @@ function closeMenu() { menuOpen.value = false }
 
 <template>
   <header class="fixed top-0 left-0 right-0 z-50 h-16 bg-midnight/80 backdrop-blur-md">
-    <div class="max-w-6xl mx-auto px-8 md:px-16 h-full flex items-center justify-between">
+    <div class="max-w-[1800px] mx-auto px-5 md:px-8 lg:px-16 2xl:px-24 h-full flex items-center justify-between">
 
       <!-- Logo -->
       <a href="#" class="font-display font-black text-sm text-fg tracking-widest">GK</a>
@@ -51,7 +51,7 @@ function closeMenu() { menuOpen.value = false }
 
         <!-- Hamburger mobile -->
         <button
-          class="md:hidden p-1 text-fg"
+          class="md:hidden p-2 text-fg"
           :aria-label="menuOpen ? 'Fechar menu' : 'Abrir menu'"
           @click="menuOpen = !menuOpen"
         >
@@ -66,7 +66,7 @@ function closeMenu() { menuOpen.value = false }
     </div>
 
     <!-- Nav mobile -->
-    <nav v-if="menuOpen" class="md:hidden border-t border-midnight-border bg-midnight px-8 py-5 flex flex-col gap-5">
+    <nav v-if="menuOpen" class="md:hidden border-t border-midnight-border bg-midnight px-4 py-5 flex flex-col gap-5">
       <a
         v-for="link in navLinks"
         :key="link.key"

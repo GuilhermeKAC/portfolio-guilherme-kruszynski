@@ -23,19 +23,19 @@ onMounted(async () => {
   <section
     id="hero"
     ref="heroRef"
-    class="min-h-screen flex items-center bg-bg"
+    class="min-h-screen flex items-center bg-bg pt-20 pb-10 lg:pt-0 lg:pb-0"
   >
     <div class="app-container grid grid-cols-1
-                               lg:grid-cols-2 gap-16 items-center">
+                               lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
       <!-- Coluna de texto -->
-      <div class="hero-meta flex flex-col gap-10">
+      <div class="hero-meta flex flex-col gap-6 md:gap-10">
         <div class="flex flex-col">
-          <span class="text-mono text-muted mb-8">
+          <span class="text-mono text-muted mb-5 md:mb-8">
             São José dos Campos, SP · 2026
           </span>
 
-          <h1 class="heading-display" style="padding-bottom: 1.5rem">
+          <h1 class="heading-display" style="padding-bottom: 1rem">
             Guilherme<br>Kruszynski
           </h1>
 
@@ -44,7 +44,7 @@ onMounted(async () => {
           </p>
         </div>
 
-        <div class="hero-footer flex flex-wrap items-center gap-10 mt-4">
+        <div class="hero-footer flex flex-wrap items-center gap-5 md:gap-10 mt-2 md:mt-4">
           <AppButton as="a" :href="`mailto:${CONTACT.email}`" variant="link">
             {{ t('hero.cta') }}
             <svg class="w-3 h-3 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -70,7 +70,7 @@ onMounted(async () => {
           alt="Guilherme Kruszynski"
           class="w-full max-w-xs md:max-w-sm object-cover object-top"
           style="
-            height: clamp(400px, 60vh, 600px);
+            height: clamp(260px, 50vh, 600px);
             mask-image: linear-gradient(
               to bottom,
               transparent 0%,

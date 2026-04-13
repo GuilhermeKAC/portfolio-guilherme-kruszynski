@@ -24,7 +24,7 @@ onMounted(async () => {
   <section id="contact" ref="sectionRef" class="app-section bg-bg-soft">
     <div class="app-container">
       <SectionHeading number="03" :title="t('contact.title')" />
-      <p class="font-sans text-[0.9rem] leading-[1.7] text-muted -mt-16 mb-16">
+      <p class="font-sans text-[0.9rem] leading-[1.7] text-muted -mt-4 md:-mt-12 mb-8 md:mb-16">
         {{ t('contact.availability') }}
       </p>
 

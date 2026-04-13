@@ -25,7 +25,7 @@ onMounted(async () => {
         <div
           v-for="category in stack"
           :key="category.label"
-          class="grid grid-cols-1 lg:grid-cols-[180px_1fr] gap-10 lg:gap-16 py-10 first:pt-0 last:pb-0"
+          class="grid grid-cols-1 md:grid-cols-[160px_1fr] lg:grid-cols-[180px_1fr] gap-5 md:gap-10 lg:gap-16 py-7 md:py-10 first:pt-0 last:pb-0"
         >
           <span class="label-mono lg:pt-1">
             {{ category.label }}

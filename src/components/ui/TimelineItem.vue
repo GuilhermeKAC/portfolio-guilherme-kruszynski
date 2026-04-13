@@ -9,7 +9,7 @@ defineProps<{
 </script>
 
 <template>
-  <div class="editorial-grid py-14 border-b border-border
+  <div class="editorial-grid py-8 md:py-12 lg:py-14 border-b border-border
               last:border-b-0 first:pt-0">
 
     <!-- Coluna esquerda -->

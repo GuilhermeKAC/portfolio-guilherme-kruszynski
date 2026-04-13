@@ -23,8 +23,8 @@ onMounted(async () => {
       <SectionHeading number="02" :title="t('education.title')" />
 
       <!-- Formação principal -->
-      <div class="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-8 lg:gap-16
-                  py-16 border-b border-midnight-border">
+      <div class="grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-6 md:gap-10 lg:gap-16
+                  py-8 md:py-16 border-b border-midnight-border">
         <div class="flex flex-col gap-2">
           <h3
             class="font-display font-bold text-fg"

@@ -57,7 +57,7 @@ body {
   line-height: 1.08;
   letter-spacing: -0.01em;
   color: var(--color-fg);
-  font-size: clamp(4rem, 9vw, 9rem);
+  font-size: clamp(2.75rem, 9vw, 9rem);
 }
 
 .heading-xl {
@@ -66,7 +66,7 @@ body {
   line-height: 1.12;
   letter-spacing: 0.01em;
   color: var(--color-fg);
-  font-size: clamp(3.5rem, 7vw, 7rem);
+  font-size: clamp(2.25rem, 7vw, 7rem);
 }
 
 .heading-lg {
@@ -75,7 +75,7 @@ body {
   line-height: 1.15;
   letter-spacing: 0.02em;
   color: var(--color-fg);
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-size: clamp(1.75rem, 5vw, 4.5rem);
 }
 
 .heading-md {
@@ -84,7 +84,7 @@ body {
   line-height: 1.3;
   letter-spacing: 0.02em;
   color: var(--color-fg);
-  font-size: clamp(1.25rem, 2vw, 1.6rem);
+  font-size: clamp(1.1rem, 2.5vw, 1.6rem);
 }
 
 .label-mono {
@@ -109,16 +109,24 @@ body {
 /* Container único para TODO o projeto */
 .app-container {
   width: 100%;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  max-width: 1800px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
   margin-left: auto;
   margin-right: auto;
 }
 
+@media (min-width: 640px) {
+  .app-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
 @media (min-width: 768px) {
   .app-container {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 }
 
@@ -129,16 +137,37 @@ body {
   }
 }
 
+@media (min-width: 1920px) {
+  .app-container {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
 /* Section wrapper único */
 .app-section {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (min-width: 640px) {
+  .app-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 
 @media (min-width: 1024px) {
   .app-section {
-    padding-top: 11rem;
-    padding-bottom: 11rem;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .app-section {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
 }
 
@@ -146,13 +175,27 @@ body {
 .editorial-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .editorial-grid {
+    grid-template-columns: 180px 1fr;
+    gap: 3rem;
+  }
 }
 
 @media (min-width: 1024px) {
   .editorial-grid {
     grid-template-columns: 220px 1fr;
     gap: 5rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .editorial-grid {
+    grid-template-columns: 280px 1fr;
+    gap: 8rem;
   }
 }
 
