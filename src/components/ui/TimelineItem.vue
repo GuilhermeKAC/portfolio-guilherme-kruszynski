@@ -13,7 +13,7 @@ defineProps<{
               last:border-b-0 first:pt-0">
 
     <!-- Coluna esquerda -->
-    <div class="flex flex-col gap-2 lg:pt-1">
+    <div class="flex flex-col gap-3 lg:pt-1">
       <h3 class="heading-md">{{ item.company }}</h3>
       <span class="label-mono"
             :style="forceExpanded

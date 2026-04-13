@@ -24,7 +24,7 @@ onMounted(async () => {
         <div
           v-for="item in items"
           :key="item.metric"
-          class="editorial-grid py-12 first:pt-0 last:pb-0"
+          class="editorial-grid py-16 first:pt-0 last:pb-0"
         >
           <div class="heading-lg" style="color: var(--color-accent)">
             {{ item.metric }}
