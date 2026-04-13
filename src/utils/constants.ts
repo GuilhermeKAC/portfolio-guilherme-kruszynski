@@ -1,5 +1,5 @@
 export const TECH_CATEGORIES: Record<string, string[]> = {
-  'Back-end':     ['PHP 8.x', 'Laravel', 'PostgreSQL', 'MySQL', 'RESTful APIs', 'Lumen'],
+  'Back-end':     ['PHP 8.x', 'Laravel', 'PostgreSQL', 'MySQL', 'RESTful APIs', 'Lumen', 'Node.js', 'Go'],
   'Front-end':    ['JavaScript', 'Bootstrap', 'Vue.js'],
   'Arquitetura':  ['Clean Architecture', 'SOLID', 'Monolito Modular', 'Scrum', 'Kanban'],
   'Cloud/DevOps': ['AWS', 'Docker', 'Git', 'GitHub'],
