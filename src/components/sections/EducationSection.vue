@@ -20,7 +20,7 @@ onMounted(async () => {
 <template>
   <section id="education" ref="sectionRef" class="app-section bg-bg">
     <div class="app-container">
-      <SectionHeading number="03" :title="t('education.title')" />
+      <SectionHeading number="02" :title="t('education.title')" />
 
       <!-- Formação principal -->
       <div class="grid grid-cols-1 lg:grid-cols-[1fr_2fr] gap-8 lg:gap-16
