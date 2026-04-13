@@ -17,8 +17,9 @@ function closeMenu() { menuOpen.value = false }
 </script>
 
 <template>
-  <header class="fixed top-0 left-0 right-0 z-50 h-16 bg-midnight/80 backdrop-blur-md">
-    <div class="max-w-[1800px] mx-auto px-5 md:px-8 lg:px-16 2xl:px-24 h-full flex items-center justify-between">
+  <header class="fixed top-0 left-0 right-0 z-50 bg-midnight/80 backdrop-blur-md"
+          style="padding-top: env(safe-area-inset-top); height: calc(4rem + env(safe-area-inset-top))">
+    <div class="max-w-[1800px] mx-auto px-6 md:px-8 lg:px-16 2xl:px-24 h-16 flex items-center justify-between">
 
       <!-- Logo -->
       <a href="#" class="font-display font-black text-sm text-fg tracking-widest">GK</a>

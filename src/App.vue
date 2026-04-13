@@ -27,7 +27,7 @@ onUnmounted(() => {
 <template>
   <ProgressBar />
   <AppHeader />
-  <main class="pt-16">
+  <main style="padding-top: calc(4rem + env(safe-area-inset-top))">
     <HeroSection />
     <div class="app-container">
       <div class="h-px" style="background: var(--color-border);
