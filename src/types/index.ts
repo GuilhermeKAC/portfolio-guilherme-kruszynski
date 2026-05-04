@@ -39,7 +39,6 @@ export interface LocaleMessages {
   nav: {
     experience: string
     skills: string
-    achievements: string
     education: string
     contact: string
   }

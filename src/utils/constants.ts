@@ -1,9 +1,10 @@
 export const TECH_CATEGORIES: Record<string, string[]> = {
-  'Back-end':     ['PHP 8.x', 'Laravel', 'PostgreSQL', 'MySQL', 'RESTful APIs', 'Lumen', 'Node.js', 'Go'],
-  'Front-end':    ['JavaScript', 'Bootstrap', 'Vue.js'],
+  'Back-end':     ['PHP 8.x', 'Laravel', 'Java 17', 'Spring Boot', 'Spring Security', 'JPA/Hibernate', 'PostgreSQL', 'MySQL', 'RESTful APIs', 'Node.js', 'Go'],
+  'Front-end':    ['JavaScript', 'Vue.js', 'Bootstrap'],
   'Arquitetura':  ['Clean Architecture', 'SOLID', 'Monolito Modular', 'Scrum', 'Kanban'],
-  'Cloud/DevOps': ['AWS', 'Docker', 'Git', 'GitHub'],
+  'Cloud/DevOps': ['AWS', 'Docker', 'Flyway', 'Git', 'GitHub'],
   'Dados':        ['SQL Performance Tuning', 'Migrations', 'Queries Complexas'],
+  'Idiomas':      ['Português (Nativo)', 'Inglês — B2 (Upper-Intermediate)'],
 }
 
 export const CONTACT = {

@@ -2,14 +2,13 @@
   "nav": {
     "experience": "Experiência",
     "skills": "Habilidades",
-    "achievements": "Conquistas",
     "education": "Formação",
     "contact": "Contato"
   },
   "hero": {
     "role": "Desenvolvedor Full-stack",
-    "specialty": "PHP · Laravel · PostgreSQL | Especialista em WMS/YMS & Clean Architecture",
-    "summary": "Desenvolvedor full-stack com sólida experiência em PHP, Laravel, PostgreSQL e metodologias ágeis. Especializado em construção de sistemas de gestão (WMS/YMS) e plataformas de rastreamento veicular. Experiência comprovada no desenvolvimento de sistemas do zero — do planejamento à produção — definindo arquitetura e liderança técnica como Scrum Master.",
+    "specialty": "PHP · Laravel · PostgreSQL | Especialista WMS/YMS | Focado em Java & Spring Boot",
+    "summary": "Desenvolvedor full-stack com sólida experiência em PHP, Laravel e PostgreSQL. Especializado em sistemas de gestão (WMS/YMS) e arquitetura limpa. Atualmente em transição para o ecossistema Java/Spring Boot, com projetos práticos de API REST, autenticação JWT e Docker.",
     "cta": "Entre em contato"
   },
   "techStack": {

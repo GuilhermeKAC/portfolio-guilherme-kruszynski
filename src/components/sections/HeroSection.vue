@@ -40,7 +40,7 @@ onMounted(async () => {
           </h1>
 
           <p class="label-mono">
-            {{ t('hero.role') }} · PHP · Laravel · PostgreSQL
+            {{ t('hero.role') }} · PHP · Laravel · PostgreSQL · Java · Spring Boot
           </p>
         </div>
 
